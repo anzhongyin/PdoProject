@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>导航</title>
+    <style>
+        body{
+            background-image: url("http://pic.58pic.com/58pic/15/71/56/48P58PIC3gS_1024.jpg");
+            background-color: orange;
+
+        }
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+        a{
+            display:block;
+            width:260px;
+            font-weight:bold;
+            color:#FFFFFF;
+            background-color:paleturquoise;
+            text-align:center;
+            padding:10px;
+            text-decoration:none;
+            text-transform:uppercase;
+            font-family: "宋体";
+        }
+        a:hover,a:active{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<ul>
+
+    <tr><td>{{ a}}</td></tr>
+       <form action="/complete/" method="get">
+            <button class="but" type="submit">用户信息完善</button>
+        </form>
+       <form action="/home/" method="get">
+            <button class="but" type="submit">团队成员</button>
+        </form>
+       <form action="/information/" method="get">
+            <button class="but" type="submit">个人信息</button>
+         </form>
+        <form action="/xiugai/" method="get">
+            <button class="but" type="submit">修改密码</button>
+        </form>
+       <form action="/LOGIN/" method="get">
+            <button class="but" type="submit">注销</button>
+        </form>
+</ul>
+ <img src="http://img.juimg.com/tuku/yulantu/140217/330621-14021G93F152.jpg" alt="the" width="1600" height="1000">
+</body>
+</html>
